@@ -4,8 +4,8 @@ library(ggplot2)
 
 shinyUI(fluidPage(
 
-    column(12,offset=5,
-           titlePanel("Population")),
+    column(12,
+           titlePanel("EU28 Population on January 1st. Source: Eurostat [demo_pjan]")),
     br(),
     h6(textOutput("text1")),
 
