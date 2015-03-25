@@ -3,7 +3,6 @@ library(ggplot2)
 
 
 shinyUI(fluidPage(
-
     column(12,
            titlePanel("EU28 Population on January 1st. Source: Eurostat [demo_pjan]")),
     br(),
